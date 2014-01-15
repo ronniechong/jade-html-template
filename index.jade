@@ -1,0 +1,20 @@
+//-	File: Index.html
+
+extends template
+
+//- Custom scripts/CSS for local calls
+block template-head
+	//- e.g.
+		script(src="custom-script.js")
+
+//- Content starts here
+block template-body
+	article.article-block
+		section.section-block
+			p Content here
+		aside.page-aside
+			ul
+				li: a(href="#") Aside link 1
+				li: a(href="#") Aside link 2
+				li: a(href="#") Aside link 3
+				li: a(href="#") Aside link 4
