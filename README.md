@@ -2,10 +2,10 @@
 A standard barebone HTML template using Jade
 
 ##template.jade
-This is the main layout
+This is the main layout.
 
 ##index.jade
-This is for individual HTML pages.
+This is for individual HTML pages. Compile this file to HTML
 
 ##library.jade 
 This is to call all the required files from mixin folder
